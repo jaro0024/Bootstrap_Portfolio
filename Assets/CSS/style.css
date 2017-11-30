@@ -100,18 +100,8 @@ nav {
 /* Portfolio Container */
 
 .card-portfolio {
-    margin: 10px 5px 30px 5px;
-}
-
-.card-img {
     position: relative;
-}
-
-.card-img-overlay {
-    position: absolute;
-    top: 60%;
-    left: 0;
-    width: 100%;
+    margin: 10px 5px 30px 5px;
 }
 
 .card-text {
@@ -119,8 +109,11 @@ nav {
     color: #ffffff;
     font-weight: bold;
     background-color: #851616;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%; 
 }
 
 /* ------------------------------------------------ */
